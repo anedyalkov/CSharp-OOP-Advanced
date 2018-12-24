@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosX", "CosmosX\CosmosX.csproj", "{701DABC2-DE13-4B7B-8B43-E76268C3AE5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosX.Tests", "CosmosX.Tests\CosmosX.Tests.csproj", "{D1CFFB2A-20F3-4DE6-BB99-9163A41261BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{701DABC2-DE13-4B7B-8B43-E76268C3AE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701DABC2-DE13-4B7B-8B43-E76268C3AE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701DABC2-DE13-4B7B-8B43-E76268C3AE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701DABC2-DE13-4B7B-8B43-E76268C3AE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CFFB2A-20F3-4DE6-BB99-9163A41261BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CFFB2A-20F3-4DE6-BB99-9163A41261BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CFFB2A-20F3-4DE6-BB99-9163A41261BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CFFB2A-20F3-4DE6-BB99-9163A41261BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3F1F02A-07AB-456D-961E-6254210C4299}
+	EndGlobalSection
+EndGlobal
