@@ -10,7 +10,6 @@ namespace SkeletonTests
         private const int DummyHealth = 10;
         private const int DummyExperience = 20;
       
-
         [Test]
         public void DummyLosesHealthIfAttacked()
         {
