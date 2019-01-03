@@ -20,8 +20,6 @@
             var commandArgs = inputParameters.Skip(1).ToList();
             string commandResult = string.Empty;
 
-
-            //Type commandType = Type.GetType(commandName + Constants.CommandSuffix);
             var commandToInvoke = this.tankManager.GetType()
                 .GetMethods()
                 .FirstOrDefault(x => x.Name.Contains(command));

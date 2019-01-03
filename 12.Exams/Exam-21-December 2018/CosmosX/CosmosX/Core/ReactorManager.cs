@@ -101,6 +101,7 @@ namespace CosmosX.Core
         {
             int id = int.Parse(arguments[0]);
             var reactorOrModule = identifiableObjects.FirstOrDefault(r => r.Key == id);
+
             return reactorOrModule.Value.ToString();
         }
 

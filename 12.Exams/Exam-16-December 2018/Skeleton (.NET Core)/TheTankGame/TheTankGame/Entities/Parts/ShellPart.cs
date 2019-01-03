@@ -9,7 +9,6 @@
             this.DefenseModifier = defenseModifier;
         }
 
-        //Schedule for the next feature
         public int DefenseModifier { get; private set;}
 
         public override string ToString()

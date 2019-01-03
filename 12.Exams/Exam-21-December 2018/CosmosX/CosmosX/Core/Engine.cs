@@ -22,8 +22,6 @@ namespace CosmosX.Core
 
         public void Run()
         {
-            //It's not really necessary to implement this method
-
 
             this.isRunning = true;
             while (isRunning)
@@ -42,7 +40,6 @@ namespace CosmosX.Core
                     if (inputLine == "Exit")
                     {
                         this.isRunning = false;
-                        //break;
                     }
                 }
                 catch (Exception e)

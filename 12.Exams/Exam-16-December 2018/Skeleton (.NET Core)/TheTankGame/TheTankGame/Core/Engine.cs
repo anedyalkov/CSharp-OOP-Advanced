@@ -43,7 +43,6 @@
                     if (inputLine == "Terminate")
                     {
                         this.isRunning = false;
-                        //break;
                     }
                 }
                 catch (Exception e)

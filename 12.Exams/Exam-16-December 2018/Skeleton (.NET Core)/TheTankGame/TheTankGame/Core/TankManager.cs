@@ -22,7 +22,6 @@
         private readonly IList<string> defeatedVehicles;
         private readonly IBattleOperator battleOperator;
 
-        //hmmm
         private readonly IVehicleFactory vehicleFactory;
         private readonly IPartFactory partFactory;
 
